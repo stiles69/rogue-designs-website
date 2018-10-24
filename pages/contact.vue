@@ -2,10 +2,10 @@
   <v-container fluid class='RogueComponent RoguePager'>
     <v-slide-y-transition mode='out-in'>
       <v-layout column align-center>
-	      <v-avatar class='hidden-sm-and-down' size='172px' >
+	      <v-avatar class='hidden-sm-and-down RogueImage' size='172px' >
           <img src='../assets/img/Logo-192x192.png' alt='Rogue Designs'>
         </v-avatar>
-        <v-avatar class='hidden-md-and-up' size='84px' >
+        <v-avatar class='hidden-md-and-up RogueImage' size='84px' >
           <img src='../assets/img/Logo-192x192.png' alt='Rogue Designs'>
         </v-avatar>
         <p class='headline'>Rogue Designs</p>
