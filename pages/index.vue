@@ -2,12 +2,12 @@
     <v-container fluid class='RoguePager'>
       <v-slide-y-transition mode='out-in'>
         <v-layout column align-center>
-          <v-img class='hidden-sm-and-down RogueImage' size='172px' >
+          <v-avatar class='hidden-sm-and-down RogueImage' size='172px' >
             <img src='../assets/img/Logo-192x192.png' alt='Rogue Designs'>
-          </v-img>
-          <v-img class='hidden-md-and-up RogueImage' size='84px' >
+          </v-avatar>
+          <v-avatar class='hidden-md-and-up RogueImage' size='84px' >
             <img src='../assets/img/Logo-192x192.png' alt='Rogue Designs'>
-          </v-img>
+          </v-avatar>
           <p class='headline'>Rogue Designs</p>
           <p class='title'>RaspberryPi Services</p> 
         </v-layout>
