@@ -28,15 +28,22 @@
                 <li><p>Uses OpenVPN to keep your connections secure.</p></li>
               </ul>
               <v-layout column align-center>
+		<p class='title'>HTPC Manager</p>
                 <v-img>
                   <img src='../assets/img/HTP-1000x563.png' alt='HTPC Manager'>
                 </v-img>
+		<hr />
+		<p class='title'>SABNZBD Download Manager</p>
                 <v-img>
                   <img src='../assets/img/SABNZBD-1000x563.png' alt='SABNZBD Usernet Manager' >
                 </v-img>
+		<hr />
+		<p class='title'>Couchpotato Movie Manager</p>
                 <v-img>
                   <img src='../assets/img/Couchpotato-1000x563.png' alt='Couchpotato Movie Manger'>
                 </v-img>
+		<hr />
+		<p class='title'>Sonarr TV-Shows Manager</p>
                 <v-img>
                   <img src='../assets/img/Sonarr-1000x563.png' alt='Sonarr TV Manager'>                  
                 </v-img>  
