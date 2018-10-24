@@ -1,14 +1,13 @@
-<template>
-  <div class='index'>
+<template>  
     <v-container fluid class='RoguePager'>
       <v-slide-y-transition mode='out-in'>
         <v-layout column align-center>
-          <v-avatar class='hidden-sm-and-down' size='172px' >
+          <v-img class='hidden-sm-and-down RogueImage' size='172px' >
             <img src='../assets/img/Logo-192x192.png' alt='Rogue Designs'>
-          </v-avatar>
-          <v-avatar class='hidden-md-and-up' size='84px' >
+          </v-img>
+          <v-img class='hidden-md-and-up RogueImage' size='84px' >
             <img src='../assets/img/Logo-192x192.png' alt='Rogue Designs'>
-          </v-avatar>
+          </v-img>
           <p class='headline'>Rogue Designs</p>
           <p class='title'>RaspberryPi Services</p> 
         </v-layout>
@@ -36,7 +35,7 @@
         </v-flex>
       </v-layout>
     </v-container>
-  </div>
+ 
 </template>
 
 <script>
@@ -49,3 +48,7 @@
     }
   }
 </script>
+
+<style lang='stylus'>
+@import '../assets/style/app.styl'
+</style>
