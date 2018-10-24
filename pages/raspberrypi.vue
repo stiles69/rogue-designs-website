@@ -30,7 +30,16 @@
               <v-layout column align-center>
                 <v-img>
                   <img src='../assets/img/HTP-1000x563.png' alt='HTPC Manager'>
-                </v-img>    
+                </v-img>
+                <v-img>
+                  <img src='../assets/img/SABNZBD-1000x563.png' alt='SABNZBD Usernet Manager' >
+                </v-img>
+                <v-img>
+                  <img src='../assets/img/Couchpotato-1000x563.png' alt='Couchpotato Movie Manger'>
+                </v-img>
+                <v-img>
+                  <img src='../assets/img/Sonarr-1000x563.png' alt='Sonarr TV Manager'>                  
+                </v-img>  
               </v-layout>
             <v-card-actions class='RogueCardActions'>
               <v-btn round dark small color='primary' @click='$router.push("/contact")'>Contact</v-btn>
