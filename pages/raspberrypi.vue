@@ -27,9 +27,11 @@
                 <li><p>Intgrates with web browser to easily manage your media.</p></li>
                 <li><p>Uses OpenVPN to keep your connections secure.</p></li>
               </ul>
-              <v-img>
-                <img src='../assets/img/HTPCManager.png' alt='HTPC Manager'>
-              </v-img>
+              <v-layout column align-center>
+                <v-img>
+                  <img src='../assets/img/HTP-1000x563.png' alt='HTPC Manager'>
+                </v-img>    
+              </v-layout>
             <v-card-actions class='RogueCardActions'>
               <v-btn round dark small color='primary' @click='$router.push("/contact")'>Contact</v-btn>
             </v-card-actions>
