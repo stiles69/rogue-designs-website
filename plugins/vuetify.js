@@ -4,12 +4,12 @@ import colors from 'vuetify/es5/util/colors'
 
 Vue.use(Vuetify, {
   theme: {
-     primary: '#3f9699',
-      secondary: '#3f996f',
-      accent: '#71ca9d',
-      error: '#f44336',
-      warning: '#FFAB91',
-      info: '#2196f3',
-      success: '#4caf50'
+     primary: '#880e4f',
+      secondary: '#bf360c',
+      accent: '#bc477b',
+      error: '#f9683a',
+      warning: '#ffff00',
+      info: '#039be5',
+      success: '#2e7d32'
   }
 })
